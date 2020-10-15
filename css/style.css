@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap');
+
+@font-face {
+  font-family: 'Playfair Display Regular';
+  src: url('../font/playfairdisplay/playfairdisplay-regular.woff') format('woff2'),
+       url('../font/playfairdisplay/playfairdisplay-regular.woff2.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a, button {
+  transition: all .3s ease-in-out;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #ffffff;
+  font: 1.8rem 'Lato', sans-serif;
+  color: #171717;
+}
+
+.text {
+  max-width: 1600px;
+  margin: 130px 100px; /* тут надо задавать auto по бокам? */
+  padding: 120px;
+  box-shadow: 0 0 68px 4px rgba(0, 0, 0, .22);
+}
+
+.text__title {
+  font-family: 'Playfair Display Regular';
+  font-size: 4.2rem;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  color: #171717;
+}
+
+.text__first-p::first-letter {
+  font-size: 11rem;
+  float: left;
+  line-height: 0.9;
+  margin-right: 35px;
+  font-weight: 400;
+  font-family: 'Playfair Display Regular';
+  color: #171717;
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: rgba(92,92,92, .7);
+  line-height: 1.9;
+  letter-spacing: -0.09;
+}
+
+.text__last-p {
+  font-size: 2.4rem;
+  font-style: italic;
+  line-height: 1.9;
+}
+
+.text__last-p::before {
+  content: '“';
+  font-size: 6rem;
+  font-style: italic;
+  letter-spacing: -0.3px;
+  line-height: 0.67;
+  color: #5c5c5c;
+  margin-right: 20px;
+}
+
+.text__button {
+  color: #eaa258;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  border: 2px solid #eaa258;
+  padding: 1.4em 3em;
+  margin-top: 30px;
+  background-color: #fff;
+}
